@@ -74,38 +74,121 @@ footer {
     transform:translate(-50%,-50%);
 }
 
-
 .container {
-    background-color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
-    width: 20%;
-    height: 75%;
-    float:left;
-    Margin-left:25%;
-    margin-top:200px;
+    width: 80%;
+    height: 95%;
 }
 
-.headername {
+.headertop {
     padding-right:30px;
     padding-top:20px;
     padding-bottom:20px;
     border-bottom: 2px solid #b2bec3;
-    margin-left:50px;
+    margin-left:20px;
+    margin-right:20px;
+    clear:both;
+}
+
+.container2 {
+    position:absolute;
+    top:5%;
+    background-color:white;
+    width: 30%;
+    height: 75%;
+    float:left;
+    position:relative;
+    margin-left:45px;
+}
+
+.headername {
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 2px solid #b2bec3;
+    margin-left:20px;
     margin-right:20px;
     text-align: center;
 }
 
 .Port1 {
-    height:200px;
-    width:200px;
-    margin-left:20%;
-    margin-top:30px;
+    height:350px;
+    width:350px;
+    margin-left:25px;
+    margin-top:20px;
     margin-right:20px;
-    margin-bottom:30px;
+    margin-bottom:20px;
     clear: both;
+    align-items: center;
 }
 
-.container2 {
+.container3 {
+    position:absolute;
+    top:5%;
+    background-color:white;
+    width: 30%;
+    height: 75%;
+    float:left;
+    position:relative;
+    margin-left:1%;
+}
+
+.headername2 {
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 2px solid #b2bec3;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+}
+
+.Port2 {
+    height:350px;
+    width:350px;
+    margin-left:25px;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    clear: both;
+    align-items: center;
+}
+
+.container4 {
+    position:absolute;
+    top:5%;
+    background-color:white;
+    width: 30%;
+    height: 75%;
+    float:left;
+    position:relative;
+    margin-left:1%;
+}
+
+.headername3 {
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 2px solid #b2bec3;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+}
+
+.Port3 {
+    height:350px;
+    width:350px;
+    margin-left:25px;
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    clear: both;
+    align-items: center;
+}
+/* .container2 {
     position: absolute;
     background-color:white;
     transform: translate(-50%, -50%);
@@ -134,4 +217,4 @@ footer {
     margin-right:20px;
     margin-bottom:30px;
     clear: both;
-}
+} */
