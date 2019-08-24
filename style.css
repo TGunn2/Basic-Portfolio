@@ -1,0 +1,130 @@
+* {
+    margin:0;
+    text-decoration: none;
+}
+
+nav {
+    height:10vh;
+    background-color: white;
+    display: table;
+    width:100%;
+    clear: both;
+    color:#b2bec3;
+    border-bottom: 2px solid #b2bec3;
+}
+
+.navtitle {
+    height:10vh;
+    display: table;
+    float: left;
+    margin-left:10%;
+    color:white;
+}
+
+.navtitletext {
+    display: table-cell;
+    vertical-align: middle;
+    background: #fd79a8;
+    opacity:0.5;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 2px solid #b2bec3;
+    border-right: 2px solid #b2bec3;
+}
+
+.navlinks {
+    height:10vh;
+    display:table;
+    margin-right:10%;
+    float:right;
+    
+}
+
+.navlink {
+    display:table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.title {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+main {
+    min-height:80vh;
+    background-color: blanchedalmond;
+    position:relative;
+}
+
+footer {
+    height:10vh;
+    background-color:white;
+    border-top:solid 2px #b2bec3;
+}
+
+
+.container {
+    position:absolute;
+    background-color:white;
+    top:42%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 78%;
+}
+
+.headername {
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 2px solid #b2bec3;
+    margin-left:20px;
+    margin-right:20px;
+
+}
+
+img {
+    height:430px;
+    width:430px;
+    margin-left:20px;
+    margin-top:20px;
+    float:left;
+}
+
+.container2 {
+    background-color:white;
+    width: 62%;
+    height: 78%;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.containertext {
+    color:#fd79a8;
+    clear: both;
+    
+}
+
+.container3 {
+    background-color:white;
+    width: 80%;
+    margin-top: 595px;
+    float:left;
+    padding-top:40px;
+    padding-bottom:40px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%, 0);
+}
+
+.Clickhere {
+    display:table cell;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
